@@ -1,0 +1,115 @@
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 200 to 900
+
+.source-sans-3-<uniquifier > {
+  font-family: "Source Sans 3", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900
+// <slant>: Use a value from -10 to 0
+
+.inter-<uniquifier > {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings: "slnt" <slant>;
+}
+
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 1000
+
+.dm-sans-<uniquifier > {
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+html {
+  background: black;
+}
+
+.container {
+  max-width: 2560px;
+  width: 100%;
+  height: 100%;
+}
+
+.header {
+  font-family: "DM Sans", sans-serif;
+  background-image: url(images/bg2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  max-width: 2560px;
+  width: 100%;
+  height: 1300px;
+  position: relative;
+}
+
+.header-line {
+  padding: 60px calc(100% / 12);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: calc(100% - 100% / 12 * 2);
+}
+
+.header-logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-right: calc(20px + 10%);
+}
+
+.header-logo__image {
+}
+
+.header-logo__text {
+  font-size: 18px;
+  color: white;
+  font-weight: 700;
+  padding-left: 12px;
+}
+
+.header-nuv {
+  width: calc(100% - 100 / 12 * 2);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.nuv-item {
+  padding-right: calc(20px + 4%);
+}
+
+.nuv-item__link {
+  text-decoration: none;
+  color: #ffffffcc;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.nuv-item__link-first {
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.nuv-item__button {
+  padding: 0 0 0 calc(20px + 20%);
+}
+
+.nuv__button {
+  padding: 15px 30px 15px 30px;
+  gap: 10px;
+  border-radius: 100px;
+  opacity: 0px;
+  font-family: DM Sans;
+  font-size: 18px;
+  font-weight: 700;
+}
